@@ -10,7 +10,7 @@
 ### ⚙️ 개발 환경
 - `Java 11`
 - `Open JDK`
-- **IDE** : 
+- **IDE** : Eclipse 
 - **Server** : Apache Tomcat (v9.0)
 - **Database** : Oracle DB(11g)
 
