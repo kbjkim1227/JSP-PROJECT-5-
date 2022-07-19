@@ -12,7 +12,7 @@ create table member (
     );
 
 --drop table member;
-
+  
 create sequence member_seq start with 1 increment by 1;
 --drop sequence member_seq;
 
