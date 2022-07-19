@@ -33,11 +33,11 @@
 body,html{
   margin: 0px;
   padding: 0px;
-  min-width:1000px;
+  min-width:100px;
 }
   
 img{
-	min-width:1000px;
+	min-width:100px;
 }
 
 video{
@@ -103,6 +103,10 @@ footer{
 
 }
 
+
+.main_link{
+	text-align:center;
+}
 
 .login{
   display:flex;

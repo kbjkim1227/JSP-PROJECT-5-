@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<!-- <link rel="stylesheet" href="front/css/main.css"> -->
+<link rel="stylesheet" href="front/css/header.css">  
 <title>유기견 보호소</title>
 <jsp:include page="fragment/header.jsp" flush="false"/>
   <div style="width:100%">
@@ -15,37 +15,40 @@
 <!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 
 </pre>
-  <video style="width:1900px"src="front/video/dogcat.mp4" autoplay loop muted >video</video>
+  <video style="width:2300px"src="front/video/dogcat2.mp4" autoplay loop muted >video</video>
   </article>
   </div>
-  <div class = "m_container">
-	　
-  </div>
-  <div class = "m_container2">
+  <br><br><br>
+  
+   <div class = "m_container2">
   	<div class = "s_container1">
-  	<span  class = "m_title">유기견 보호센터는</span><br>
-  	유기견들의 보호 상황을 알려드리고 아이들을 분양 하실수있도록 만든 곳입니다.<br>
+      	<span  class = "m_title">유기견 보호센터는</span><br>
+      	유기견들의 보호 상황을 알려드리고 아이들을 분양 하실수있도록 만든 곳입니다.<br>
   	</div>
   	<div class = "line">
   	</div>
   	<div class = "s_container2">
-  		<img style="width:300px" id="detail" src="front/img/main/puppy.png">
+  	<img  id="detail"src="front/img/main/puppy.png"> 
   	</div>
   </div>
+  
   <br><br><br><br>
+  
+
    <article>
       <pre>
 <span style ="font-size:0.8em"></span>
-<a href="animal1.do" class ="main_button1">강아지</a>
+<a href="event1.do" class ="main_button1">강아지</a>
 <!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 </pre>
  	 <img id="detail" src="front/img/main/dog.png">
   </article>
+
   
      <article>
       <pre>
 <span style ="font-size:0.8em"></span>
-<a href="animal2.do" class ="main_button1">고양이</a>
+<a href="event2.do" class ="main_button1">고양이</a>
 <!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 </pre>
  	 <img id="detail" src="front/img/main/cat.png">
@@ -54,7 +57,7 @@
      <article>
       <pre>
 <span style ="font-size:0.8em"></span>
-<a href="animal3.do" class ="main_button1">기&nbsp;타</a>
+<a href="event3.do" class ="main_button1">기&nbsp;타</a>
 <!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 </pre>
  	 <img id="detail" src="front/img/main/others.png">

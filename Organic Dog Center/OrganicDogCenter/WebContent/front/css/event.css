@@ -10,8 +10,14 @@ body,html{
   margin: 0px;
   padding: 0px;
   height: 100%;
+  width: 100%;
 
 }
+
+img{
+	width:300px;
+}
+
 body{
    font-family: 'ImcreSoojin';
   /* font-family: 'Nanum Brush Script'; */
@@ -127,13 +133,14 @@ footer{
   height:130px;
   float:left;
   background-color:#f8f8f8;
-  opeactity:0.8;
+  opacity:0.8;
 }
 .content .first_icon{
   display:flex;
   justify-content: center;
-  maring:0;
+  margin:0;
   padding:0;
+  
 }
 .content .first_icon li{
   /* padding-top:15px; */
@@ -173,11 +180,12 @@ footer{
   border-radius: 5px;
   color: black;
   display: block;
-  font-size: 0.5em;
+ 
   font-weight: bold;
   padding: 1em 3em;
   position: relative;
   text-transform: uppercase;
+  
 }
 
 .button::before,
@@ -212,9 +220,7 @@ footer>pre{
   position: absolute;
 }
 .block1{
-	width:500px;
-	height:auto;
-	object-cover:fit;
+	
 	margin-top:60px;
 	margin-bottom:60px;
 	padding-top:5px;
@@ -223,11 +229,7 @@ footer>pre{
 	border: 1px solid #eeeeee;
 	box-shadow:2px 1px 2px 2px #eeeeee;
 }
-.info img{
-	margin:0;
-	padding:0;
-	width:100%;
-}
+
 .sub_wrap1{
   width:5%;
   object-fit:cover;

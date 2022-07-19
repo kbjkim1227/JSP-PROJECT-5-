@@ -1,7 +1,7 @@
-<%@page import="com.animal.domain.Pagination"%>
-<%@page import="com.animal.domain.Review"%>
+<%@page import="com.event.domain.Pagination"%>
+<%@page import="com.event.domain.Review"%>
 <%@page import="java.util.List"%>
-<%@page import="com.animal.domain.Member"%>
+<%@page import="com.event.domain.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>

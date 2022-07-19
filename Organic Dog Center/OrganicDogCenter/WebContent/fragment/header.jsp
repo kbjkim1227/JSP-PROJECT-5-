@@ -49,21 +49,21 @@
    
     <section class="menu">
       <ul class="menu_men">
-        <li><a href="animal1.do">강아지</a></li>
+        <li><a href="event1.do">강아지</a></li>
         <!-- <li><a href="#">메뉴1</a></li>
         <li><a href="#">메뉴2</a></li>
         <li><a href="#">메뉴3</a></li> -->
       </ul>
 
       <ul class="menu_women">
-        <li><a href="animal2.do">고양이</a></li>
+        <li><a href="event2.do">고양이</a></li>
         <!-- <li><a href="#">메뉴1</a></li>
         <li><a href="#">메뉴2</a></li>
         <li><a href="#">메뉴3</a></li> -->
       </ul>
 
       <ul class="menu_parents">
-        <li><a href="animal3.do">기타 동물들</a></li>
+        <li><a href="event3.do">기타 동물들</a></li>
         <!-- <li><a href="#">메뉴1</a></li>
         <li><a href="#">메뉴2</a></li>
         <li><a href="#">메뉴3</a></li> -->
