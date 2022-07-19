@@ -22,8 +22,10 @@
   
    <div class = "m_container2">
   	<div class = "s_container1">
-      	<span  class = "m_title">유기견 보호센터는</span><br>
-      	유기견들의 보호 상황을 알려드리고 아이들을 분양 하실수있도록 만든 곳입니다.<br>
+      	<span  class = "m_title">우리 유기견 보호센터는</span><br>
+      	10마리이하의 유기동물을 보호하며.<br>
+      	한마리 한마리 모든 아이들에게 <br>
+      	정성을 다합니다<br>
   	</div>
   	<div class = "line">
   	</div>

@@ -1,4 +1,4 @@
-<%@page import="java.util.ArrayList"%>
+<%@ page import="java.util.ArrayList"%>
 <%@page import="com.event.domain.Pagination"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
@@ -66,24 +66,27 @@
         </div>      
         </div>
 	
-	
-	
-	
         <div id="event_2" style="display:none;">
         <div class="info">
         <div class="block1">
-            <h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">손편지</span></h3>
-            <img src="front/img/event/man/man2_1.jpg" alt="" >
-            <span style="text-align:left; font-weight:bold;" align="left">&nbsp;&nbsp;#기념일 #이벤트 #책편지<br></span>
-            	여자친구에게 감동을 주고 싶다면 진심을 담은 손편지를 책으로 만들어서 주는건 어떨까요?<br>
-                            여자친구를 위한 정성스러운 손 편지를 기념일까지 매일 한장씩 작성합니다.<br>
-                            작성한 손편지들을 모아서 책 형식으로 만들어 줍니다.<br>
+		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">인적사항</span></h3>
+            <img src="front/img/event/dog/badug1.png" alt="" ><br>
+            	이름:바둑이<br>
+                나이:1세<br>
+                암수구분:수 <br>
 		</div>
 		<div class="block1">
-			<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">#둘</span></h3>
-            <img src="front/img/event/man/man2_2.jpg" alt="" ><br>
-            <span style="text-align:left; font-weight:bold;" align="left">&nbsp;&nbsp;#진심 #편집 #직접쓴편지<br></span>
-                            미리 준비해둔 꽃다발과 진심이 담긴 손편지를 건네줍니다
+		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>
+            <img src="front/img/event/dog/badug2.png" alt="" ><br>
+                아직 많이 어려서 눈꼽이 자주 낍니다<br>
+                 그거외엔 건강한 아이입니다
+        </div>
+        <div class="block1">
+        <h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">개견특징</span></h3>
+            <img src="front/img/event/dog/badug3.png" alt="" ><br>
+                입질을 많이하고 대소변을 아직 못가려요<br>
+                잠이 많고 밥을 그냥 삼켜서 토를 합니다<br>
+                밥을 물에 불려서 주어야 합니다. 
         </div>
         </div>
         </div>
@@ -91,18 +94,25 @@
         <div id="event_3" style="display: none;">
         <div class="info">
         <div class="block1">
-          <h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">레스토랑</span></h3>	
-          <img src="front/img/event/man/man3_1.jpg" alt="" ><br>
-          <span style="text-align:left; font-weight:bold;" align="left">&nbsp;&nbsp;#기념일 #이벤트 #책편지<br></span> 
-         	 여자친구와 특별한 시간을 보내고 싶으면 분위기 좋은 레스토랑은 어떨까요?	
-              	특별한 날에 분위기 좋은 레스토랑을 예약합니다.<br>
+          <h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">인적사항</span></h3>	
+          <img src="front/img/event/dog/ddolddol1.png" alt="" ><br>
+         		이름:똘똘이<br>
+                나이:3세<br>
+                암수구분:수 <br>
 		</div>
 		<div class="block1">
-		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">#둘</span></h3>
-          <img style="width:100%; object-fit:cover;"src="front/img/event/man/man3_2.jpg" alt="" ><br>
-          <span style="text-align:left; font-weight:bold;" align="left">&nbsp;&nbsp;#선물 #음식 #웃음<br></span> 
-            	여자친구와 맛있는 음식을 함께 먹으면서 <br>
-            	여자 친구가 평소에 같고 싶어 했던 선물을 줍니다.
+		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>
+          <img src="front/img/event/dog/ddolddol2.png" alt="" ><br>
+            	우을증이 있는 아이입니다<br>
+            	오른쪽 뒷발에 관절염이 있습니다
+        </div>
+        <div class="block1">
+		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">개견특징</span></h3>
+          <img src="front/img/event/dog/ddolddol3.png" alt="" ><br>
+            	대소변을 잘가리며 <br>
+            	사람을 경계합니다<br>
+            	하지만 마음을 준 사람에게는<br>
+            	한없이 귀여운 애교쟁이입니다.
         </div>
         </div>
         </div>

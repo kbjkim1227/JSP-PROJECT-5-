@@ -1,4 +1,4 @@
-<%@page import="com.event.domain.Member"%>
+<%@ page import="com.event.domain.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>

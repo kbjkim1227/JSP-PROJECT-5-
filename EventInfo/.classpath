@@ -7,7 +7,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/psh_data/javafx_data/MyDB/ojdbc6.jar">
+	<classpathentry kind="lib" path="D:/smj/jsp_data/EventInfo/WebContent/WEB-INF/lib/ojdbc6_g.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
