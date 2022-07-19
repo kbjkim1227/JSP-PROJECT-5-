@@ -23,6 +23,7 @@
    <div class = "m_container2">
   	<div class = "s_container1">
       	<span  class = "m_title">우리 유기견 보호센터는</span><br>
+      	동물 보호 전문가들의 봉사로 <br>
       	10마리이하의 유기동물을 보호하며.<br>
       	한마리 한마리 모든 아이들에게 <br>
       	정성을 다합니다<br>

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8" >
-    <title>유기견 보호센터</title>
+    <title>유기동물 보호센터</title>
     <link rel="stylesheet" href="front/css/header.css?ver1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
@@ -20,7 +20,8 @@
     <nav class = "title">
       <div class="navbar">
         <a href="main.do" class = "main_title">
-        <span class="m1" style="color:#ff9933;">유기견</span>
+        <span class="m1" style="color:#ff9933;">유기</span>
+        <span class="m1" style="color:#664B00;">동물</span>&nbsp;
         <span class="m2" style="color:#994C00;">보호</span>
         <span class="m3" style="color:#663300;">센터</span></a>
       </div>
