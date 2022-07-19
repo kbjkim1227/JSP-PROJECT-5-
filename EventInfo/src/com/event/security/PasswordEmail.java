@@ -14,8 +14,8 @@ import javax.mail.internet.MimeMessage;
 
 public class PasswordEmail {
 
-		String user = "qjawnswkd0577@gmail.com"; // 네이버일 경우 네이버 계정, gmail경우 gmail 계정
-        String password = "qjawnswkd";   // 패스워드
+		String user = "ansgywjd18@gmail.com"; // 네이버일 경우 네이버 계정, gmail경우 gmail 계정
+        String password = "odtlxovrapzfmjth";   // 패스워드
         
         public String sendEmail(String to) throws Exception{
         	String result = "fail";
