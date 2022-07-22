@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body> 
 <% 
 int result = Integer.parseInt(String.valueOf(request.getAttribute("result"))); 
 Long review_uid = Long.parseLong(request.getParameter("uid"));
