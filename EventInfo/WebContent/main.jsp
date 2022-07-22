@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="front/css/header.css">
+<link rel="stylesheet" href="front/css/header.css">  
 <title>유기견 보호소</title>
 <jsp:include page="fragment/header.jsp" flush="false"/>
   <div style="width:100%">
@@ -23,7 +23,6 @@
    <div class = "m_container2">
   	<div class = "s_container1">
       	<span  class = "m_title">우리 유기견 보호센터는</span><br>
-      	동물 보호 전문가들의 봉사로 <br>
       	10마리이하의 유기동물을 보호하며.<br>
       	한마리 한마리 모든 아이들에게 <br>
       	정성을 다합니다<br>
@@ -38,57 +37,21 @@
   <br><br><br><br>
   
 
-  
-<!--       <pre>
+   <article>
+      <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event1.do" class ="main_button1">강아지</a>
-<input class ="main_button" type = button value="자세히보기"onclick=""/>
-</pre> -->
- 	 
- 	 
- 	
- 	<!--  <img  id="detail" src="front/img/main/dog.png" style="margin-left: auto; margin-right: auto; display: block;">
-	       <pre>
-	 <span style ="font-size:0.8em"></span>
-	 <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">강아지</a>
-	 <input class ="main_button" type = button value="자세히보기"onclick=""/>
-	 </pre> -->
-	 
-	 
-  <div class="lb-wrap">
-  <div class="lb-text">
-    <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">강아지</a>
-	</div>
-  <div class="lb-image">
-    <img id="detail" src="front/img/main/dog.png" alt="" ></div>
-  </div>
+<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
+</pre>
+ 	 <img id="detail" src="front/img/main/dog.png">
+  </article>
+
   
-  
-  <div class="lb-wrap">
-  <div class="lb-text">
-    <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">고양이</a>
-	</div>
-  <div class="lb-image">
-    <img id="detail" src="front/img/main/cat.png" alt="" ></div>
-  </div>
-  
-  
-  <div class="lb-wrap">
-  <div class="lb-text">
-    <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">기&nbsp;타</a>
-	</div>
-  <div class="lb-image">
-    <img id="detail" src="front/img/main/others.png" alt="" ></div>
-  </div>
-	 
-	 
-	
-  
-<!--      <article>
+     <article>
       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event2.do" class ="main_button1">고양이</a>
-<input class ="main_button" type = button value="자세히보기"onclick=""/>
+<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 </pre>
  	 <img id="detail" src="front/img/main/cat.png">
   </article>
@@ -97,10 +60,10 @@
       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event3.do" class ="main_button1">기&nbsp;타</a>
-<input class ="main_button" type = button value="자세히보기"onclick=""/>
+<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 </pre>
  	 <img id="detail" src="front/img/main/others.png">
-  </article> -->
+  </article>
     
   
     <div class = "m_container2">
@@ -111,11 +74,11 @@
   	</div>
   	<div class = "s_container2">
   		 <article>
-  		<p style="text-align: bottom">도움을 주신분들<p>
-  		&nbsp;&nbsp;&nbsp;<a>a펫샾</a><br><br>
-  		&nbsp;&nbsp;&nbsp;<a>b펫샾</a><br><br>
-  		&nbsp;&nbsp;&nbsp;<a>c펫샾</a><br><br>
-  		&nbsp;&nbsp;&nbsp;<a>d펫샾</a><br><br>
+  		<p style="text-align: bottom; color:#D2691E">&nbsp;&nbsp;&nbsp;&#128155;도움을 주신분들&#128155;<p><br>
+  		&nbsp;&nbsp;&nbsp;<a href="https://www.animal.go.kr/">동물보호 관리시스템</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="https://dmanimal.co.kr/">유기견 도그마루</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/jung_brre/">유튜버 정브르</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="http://premiumpet.co.kr/">프리미엄 펫샾</a><br><br>
   		</article>
   	</div>
   </div>
