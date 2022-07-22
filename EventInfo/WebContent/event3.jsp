@@ -49,7 +49,7 @@
             <img src="front/img/event/others/coco1.png" alt="" ><br>
           	 이름:코코<br>
    			 나이:2살<br>
-             성별:수컷<br>
+             암수:♀<br>
              종류:앵무새
               
 		</div>
@@ -76,7 +76,7 @@
             <img src="front/img/event/others/didi1.png" alt="" ><br>
 				이름:디디<br>
 				나이:1살<br>
-				성별:암컷<br>
+				암수:♂<br>
 				종류:프레디독
      			
 		</div>
@@ -104,7 +104,7 @@
           <img src="front/img/event/others/papa1.png" alt="" ><br>
          	 이름:파파<br>
          	 나이:2살<br>
-             성별:수컷<br>
+             암수:♀<br>
              종류:크레스피드개코
 		</div>
 		<div class="block1">

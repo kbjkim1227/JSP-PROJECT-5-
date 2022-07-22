@@ -47,7 +47,7 @@
             <img src="front/img/event/dog/aru1.jpg" alt=""><br>
           	이름: 아루(aru)<br>
           	나이: 2세 <br>
-          	암수구분: 암 <br>
+          	암수: ♂ <br>
 		</div>
 		<div class = "block1">
 			<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>
@@ -73,7 +73,7 @@
             <img src="front/img/event/dog/badug1.png" alt="" ><br>
             	이름:바둑이<br>
                 나이:1세<br>
-                암수구분:수 <br>
+                암수:♀ <br>
 		</div>
 		<div class="block1">
 		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>
@@ -98,7 +98,7 @@
           <img src="front/img/event/dog/ddolddol1.png" alt="" ><br>
          		이름:똘똘이<br>
                 나이:3세<br>
-                암수구분:수 <br>
+                암수구분:♀ <br>
 		</div>
 		<div class="block1">
 		<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>

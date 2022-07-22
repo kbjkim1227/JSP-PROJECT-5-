@@ -47,7 +47,7 @@
             <img src="front/img/event/women/nero1.jpg" alt="" ><br>
             이름: 네로(nero)<br>
           	나이: 5세 <br>
-          	암수구분: 남 <br>     	  
+          	암수:♀ <br>     	  
 		</div>
 		<div class = "block1">
 			<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>
@@ -81,7 +81,7 @@
             <img src="front/img/event/women/navi1.jpg" alt="" ><br>
             이름: 나비(navi)<br>
           	나이: 2개월 <br>
-          	암수구분: 남 <br>   	  
+          	암수:♂  <br>   	  
 		</div>
 		<div class = "block1">
 			<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>
@@ -111,7 +111,7 @@
             <img src="front/img/event/women/bangul1.jpg" alt="" ><br>
             이름: 방울이(bangul)<br>
           	나이: 5개월 <br>
-          	암수구분: 여 <br>   	  
+          	암수:♂  <br>   	  
 		</div>
 		<div class = "block1">
 			<h3 style=""font-size:1.2em;" align="left">&nbsp;&nbsp;<span style ="border-bottom:3px solid #ff7276;">지병유무</span></h3>

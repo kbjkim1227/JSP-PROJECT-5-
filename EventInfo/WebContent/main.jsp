@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="front/css/header.css">  
+<link rel="stylesheet" href="front/css/header.css">
 <title>유기견 보호소</title>
 <jsp:include page="fragment/header.jsp" flush="false"/>
   <div style="width:100%">
@@ -38,21 +38,57 @@
   <br><br><br><br>
   
 
-   <article>
-      <pre>
+  
+<!--       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event1.do" class ="main_button1">강아지</a>
-<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
-</pre>
- 	 <img id="detail" src="front/img/main/dog.png">
-  </article>
-
+<input class ="main_button" type = button value="자세히보기"onclick=""/>
+</pre> -->
+ 	 
+ 	 
+ 	
+ 	<!--  <img  id="detail" src="front/img/main/dog.png" style="margin-left: auto; margin-right: auto; display: block;">
+	       <pre>
+	 <span style ="font-size:0.8em"></span>
+	 <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">강아지</a>
+	 <input class ="main_button" type = button value="자세히보기"onclick=""/>
+	 </pre> -->
+	 
+	 
+  <div class="lb-wrap">
+  <div class="lb-text">
+    <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">강아지</a>
+	</div>
+  <div class="lb-image">
+    <img id="detail" src="front/img/main/dog.png" alt="" ></div>
+  </div>
   
-     <article>
+  
+  <div class="lb-wrap">
+  <div class="lb-text">
+    <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">고양이</a>
+	</div>
+  <div class="lb-image">
+    <img id="detail" src="front/img/main/cat.png" alt="" ></div>
+  </div>
+  
+  
+  <div class="lb-wrap">
+  <div class="lb-text">
+    <a href="event1.do" class ="main_button1" style="margin-left: auto; margin-right: auto; display: block;">기&nbsp;타</a>
+	</div>
+  <div class="lb-image">
+    <img id="detail" src="front/img/main/others.png" alt="" ></div>
+  </div>
+	 
+	 
+	
+  
+<!--      <article>
       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event2.do" class ="main_button1">고양이</a>
-<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
+<input class ="main_button" type = button value="자세히보기"onclick=""/>
 </pre>
  	 <img id="detail" src="front/img/main/cat.png">
   </article>
@@ -61,10 +97,10 @@
       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event3.do" class ="main_button1">기&nbsp;타</a>
-<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
+<input class ="main_button" type = button value="자세히보기"onclick=""/>
 </pre>
  	 <img id="detail" src="front/img/main/others.png">
-  </article>
+  </article> -->
     
   
     <div class = "m_container2">
