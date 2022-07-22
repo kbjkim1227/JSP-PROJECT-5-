@@ -37,7 +37,7 @@ body,html{
 }
   
 img{
-	min-width:100px;
+	min-width:50px;
 }
 
 video{
@@ -103,6 +103,21 @@ footer{
 
 }
 
+ .jb-wrap {
+	width: 40%;
+	margin: 10px auto;
+	
+	position: relative;
+} 
+
+/* .jb-wrap img {
+	width: 100%;
+	vertical-align: middle;
+} */
+
+
+
+
 
 .main_link{
 	text-align:center;
@@ -122,6 +137,22 @@ footer{
 }
 
 
+a:link {
+  color : blue;
+  text-decoration: none;
+}
+a:visited {
+  color : black;
+  text-decoration: none;
+}
+a:hover {
+  color : red;
+  text-decoration: none;
+}
+a:active {
+  color : green;
+  text-decoration: none;
+}
 
 .menu{
   display: flex;
@@ -245,8 +276,9 @@ footer>pre{
 	margin-bottom:7px;
 }
 .main_button1{
-	display:block;
 	text-align:center;
+	/* display:block;
+	
 	margin-top:10px;
 	margin-right:10px;
 	padding-top:15px;
@@ -257,11 +289,15 @@ footer>pre{
 	border-radius:7px;
 	background-color:#ff7276;
 	color:white;
-	font-size:0.8em;
+	font-size:0.8em; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
 }
 .main_button1:hover{
 	
-	margin-top:10px;
+	/* margin-top:10px;
 	margin-right:10px;
 	font-family: 'GmarketSansMedium';
 	width:140px;
@@ -270,7 +306,7 @@ footer>pre{
 	border-radius:7px;
 	background-color:white;
 	color:#ff7276;
-	font-size:0.8em;
+	font-size:0.8em; */
 }
 .s_container1_1
 {

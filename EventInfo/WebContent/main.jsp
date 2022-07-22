@@ -36,34 +36,48 @@
   
   <br><br><br><br>
   
+ 
+    <div class="jb-wrap" style="text-align:center;">
 
-   <article>
-      <pre>
-<span style ="font-size:0.8em"></span>
-<a href="event1.do" class ="main_button1">강아지</a>
-<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
-</pre>
- 	 <img id="detail" src="front/img/main/dog.png">
-  </article>
+ 	 <img class="jb-image" id="detail" src="front/img/main/dog.png">
+ 	 <a href="event1.do" class ="main_button1">
+ 	 <!-- <span style = " font-size:1.5em;">강아지</span> -->
+ 	 <img src="front/img/main/born1.png"></a>
+    </div>
+    
+    <div class="jb-wrap" style="text-align:center;">
+
+ 	  <img id="detail" src="front/img/main/cat.png">
+ 	 <a href="event2.do" class ="main_button1">
+ 	 <img src="front/img/main/ch.png" style="width:55px;"></a>
+    </div>
+    
+    <div class="jb-wrap" style="text-align:center;">
+
+ 	 <img id="detail" src="front/img/main/others.png">
+ 	 
+ 	 <a href="event3.do" class ="main_button1">
+ 	 <img src="front/img/main/born3.png"></a>
+    </div>
 
   
-     <article>
+<!--     <div style="text-align:center;">
       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event2.do" class ="main_button1">고양이</a>
-<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
+<input class ="main_button" type = button value="자세히보기"onclick=""/>
 </pre>
  	 <img id="detail" src="front/img/main/cat.png">
-  </article>
+    </div>
   
-     <article>
+    <div style="text-align:center;">
       <pre>
 <span style ="font-size:0.8em"></span>
 <a href="event3.do" class ="main_button1">기&nbsp;타</a>
-<!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
+<input class ="main_button" type = button value="자세히보기"onclick=""/>
 </pre>
  	 <img id="detail" src="front/img/main/others.png">
-  </article>
+	</div> -->
     
   
     <div class = "m_container2">
@@ -75,10 +89,10 @@
   	<div class = "s_container2">
   		 <article>
   		<p style="text-align: bottom; color:#D2691E">&nbsp;&nbsp;&nbsp;&#128155;도움을 주신분들&#128155;<p><br>
-  		&nbsp;&nbsp;&nbsp;<a href="https://www.animal.go.kr/">동물보호 관리시스템</a><br><br>
-  		&nbsp;&nbsp;&nbsp;<a href="https://dmanimal.co.kr/">유기견 도그마루</a><br><br>
-  		&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/jung_brre/">유튜버 정브르</a><br><br>
-  		&nbsp;&nbsp;&nbsp;<a href="http://premiumpet.co.kr/">프리미엄 펫샾</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="https://www.animal.go.kr/">동물보호 관리시스템 &#128146;</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="https://dmanimal.co.kr/">유기견 도그마루 &#128021;</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/jung_brre/">유튜버 정브르 &#128013;</a><br><br>
+  		&nbsp;&nbsp;&nbsp;<a href="http://premiumpet.co.kr/">프리미엄 펫샾 &#128083;</a><br><br>
   		</article>
   	</div>
   </div>
