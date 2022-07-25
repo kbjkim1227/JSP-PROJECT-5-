@@ -7,7 +7,7 @@ import com.event.service.MemberService;
 
 public class InputPwCodeOkCommand implements Command{
 	
-	MemberService memberService = MemberService.getInstance();
+	MemberService memberService = MemberService.getInstance(); // MemberService 정보를 싱글톤 형태로 가져옴.
 	
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
