@@ -26,7 +26,7 @@ public class FrontController extends HttpServlet {
 	}
 	
 	protected void actionDo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("====FrontController====");
+		System.out.println("====FrontController====");     
 		System.out.println("actionDo() 호출");
 		
 		request.setCharacterEncoding("UTF-8");

@@ -21,6 +21,6 @@ public class InputNewPwOkCommand implements Command{
 			e.printStackTrace(); // 변경 실패 시 오류메세지 출력
 			System.out.println("변경 실패");
 		}
-		request.setAttribute("result", result); // jsp 파일에 result 형태로 전달.
+		request.setAttribute("result", result); // result 형태로 값 저장.
 	}
 }
