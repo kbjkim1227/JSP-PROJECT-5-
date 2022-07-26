@@ -6,7 +6,7 @@ import com.event.service.MemberService;
 
 public class IdDuplicatedCommand implements Command{
 	
-	MemberService memberService = MemberService.getInstance(); // MemberService 정보를 싱글톤 형태로 가져옴.
+	MemberService memberService = MemberService.getInstance(); // 싱글톤 형태의 MemberService 정보를 가져옴.
 	
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
