@@ -17,7 +17,7 @@ public class PasswordEmail {
 		String user = "ansgywjd18@gmail.com"; // 네이버일 경우 네이버 계정, gmail경우 gmail 계정
         String password = "odtlxovrapzfmjth";   // 패스워드
         
-        public String sendEmail(String to) throws Exception{
+        public String sendEmail(String to) throws Exception{ // Java Mail 보내기 API를 사용한 sendEmail 메소드
         	String result = "fail";
         	Properties prop = new Properties();
 	        prop.put("mail.smtp.host", "smtp.gmail.com"); 
