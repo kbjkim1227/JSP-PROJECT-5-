@@ -50,7 +50,7 @@ public class PasswordEmail {
 	            message.addRecipient(Message.RecipientType.TO, new InternetAddress(to)); 
 	            
 	            // Subject
-	            message.setSubject("눈담화 :: 비밀번호 찾기 메일입니다"); //메일 제목을 입력
+	            message.setSubject("유기동물 보호센터 :: 비밀번호 찾기 메일입니다"); //메일 제목을 입력
 	
 	            // Text
 	            message.setText("비밀번호 변경 인증번호는 [" + buffer + "]" + " 입니다");    //메일 내용을 입력

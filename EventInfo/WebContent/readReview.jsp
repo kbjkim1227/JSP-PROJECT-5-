@@ -5,9 +5,12 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<style>
+
+</style>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="front/css/readReview.css">
-<title>눈담화</title>
+<link rel="stylesheet" type="text/css" href="front/css/readReview.css?v=3">
+<title>유기동물 보호센터</title>
 <jsp:include page="fragment/header.jsp" flush="false"/>
 <%
 	//Review 객체 받기
@@ -29,24 +32,26 @@
 <div class="wrap" align="center">
   <div class="table_div" align="center">
     
-  	<table style ="width:100%; border:none;">
+  	<table style ="width:100%; ">
   		<tbody>
   		<tr class ="review_title">
-  			<td class ="td1" colspan="2">
-  				<span class ="title1"><%=review.getTitle()%></span>
-  				<span class ="title2"><%=review.getWriter() %><div style="border-left: thick solid grey;"></div><%=review.getRegdate() %></span>
+  			<td class ="td1" colspan="2" style="border-right: 3px solid #eeeeee;">
+  				<span class ="title1" style="font-weight: bold; width: 80%; text-align: left;" ><%=review.getTitle()%></span>
+  				<span class ="title2" style="width: 5%; " ><%=review.getWriter() %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><%=review.getRegdate() %></span>
+  				<span class ="title3" style="float: center; margin-left: 10px; text-align: right; width: 5%;">  조회수: <%=review.getView_count() %></td>
+		</tr>
   			</td>
   		</tr>
-  		<tr align ="center">
+  		<tr align ="center" style="">
 
   			 <td style="width:100%; height:auto;" id="img_table"><img src="upload/<%=review.getImg()%>" onerror="this.style.display='none'" alt=" "></td>
 
   		</tr>
   		<tr>
-  			<td class ="td2"colspan="2"><%=review.getContent() %></td>
+  			<td class ="td2"><%=review.getContent() %></td>
   		</tr>
 		<tr align="right">
-  			<td class ="td3" >조회수: <%=review.getView_count() %>&nbsp;&nbsp;</td>
+  			<td class ="td3" >&nbsp;&nbsp;</td>
 		</tr>
   		<%--<%
   			for(Object img:img){
@@ -58,33 +63,35 @@
   		</tbody>
   	</table>
 
-<div style="width:100%;height:35px;">
-  	<input class = "button1" type="button" value="뒤로 가기" onclick="location.replace('review.do?page=<%=nowPage%>')">
-<!-- 글의 회원uid값이랑 세션값이랑 같은지 확인 -->
-<%if(uid == review.getMember_uid()) {%>
-  	<input class = "button1" type="button" value="수정" onclick="location.href='updateReview.do?uid=<%=review_uid%>'">
-  		<input class = "button1" type="button" value="삭제" onclick="deleteBtn()">
-</div>
-<%} %>
 	<%for(Reply reply : replys){%>	
-	<div style ="display:flex; width:100%;height:auto; color:#727272;" >
-		<span style="display:block; width:10%;">[<%=reply.getWriter() %>]</span> 
-		<span style="display:block; width:50%;"><%=reply.getContent()%></span>    
-		<span style="display:block; font-size:0.9em;width:35%;">[<%=reply.getRegdate() %>]</span>
+	<div class="reply" >
+		<span class="reply_text" style="width:10%; ">[<%=reply.getWriter() %>]</span> 
+		<span class="reply_text" style="width: 50%; text-align: left; "><%=reply.getContent()%></span>    
+		<span class="reply_text" style="width:35%; font-size: 1em; text-align: right; margin-right: 20px;">[<%=reply.getRegdate() %>]</span>
 
 		<%if(uid == reply.getMember_uid()) {%>
-		<a style="text-align:top; vertical-align:top; display:block; width:5%;height:5px; font-size:0.9em;" href="deleteReply.do?uid=<%=review_uid %>&page=<%=nowPage %>&reply_uid=<%=reply.getReply_uid()%>">삭제</a><br>
+		<a class="button_del" href="deleteReply.do?uid=<%=review_uid %>&page=<%=nowPage %>&reply_uid=<%=reply.getReply_uid()%>">삭제</a><br>
 	</div>
 		<%} %>
-	<%} %>
+	<%} %> 
 	<%if(session.getAttribute("session") != null) {%>
-	<form action="replyOk.do" method="post">
-	<textarea rows="5" cols="150" placeholder="댓글을 남겨주세요" name="content"></textarea>
-	<input type="hidden" name="review_uid" value="<%=review_uid %>">
-	<input type="hidden" name="page" value="<%=nowPage%>">
-	<input type="submit" class="button1" value="작성">
+	<form action="replyOk.do" method="post" style="width: 100%; " >
+		<textarea rows="5" cols="150" placeholder="댓글을 남겨주세요" name="content" style="resize: none; margin:auto; width: 90%; position: relative; left: 0; "></textarea>
+		<input type="hidden" name="review_uid" value="<%=review_uid %>">
+		<input type="hidden" name="page" value="<%=nowPage%>">
+		<input type="submit" class="button1" value="작성" style=" float: right; position: relative; margin-right: 30px; width:5%; height: 80px; margin-top: 10px; font-size: 1.2em;">
 	</form>
 	<%} %>
+	<div class="inputs_rel">
+		<div class="inputs" style="width:100%;height:35px; margin-bottom: 20px;">
+		  <input class ="button1" type="button" style="margin-left: 600px; margin-top: 20px; "  value="목록" onclick="location.replace('review.do?page=<%=nowPage%>')">
+		<!-- 글의 회원uid값이랑 세션값이랑 같은지 확인 -->
+		<%if(uid == review.getMember_uid()) {%>
+		  	<input class = "button1" type="button" value="수정"  style="left: 500px;  margin-top: -40px; " onclick="location.href='updateReview.do?uid=<%=review_uid%>'">
+		  		<input class = "button1" type="button" value="삭제"  style="left: 400px;  margin-top: -40px; " onclick="deleteBtn()">
+		</div>
+		<%} %>
+	</div>
   </div>
 </div>
 </body>
@@ -97,5 +104,5 @@
 		}
 	}
 </script>
-<jsp:include page="fragment/footer.jsp" flush="false"/>
+<jsp:include page="fragment/footer.jsp" flush="false" />
 </html>
