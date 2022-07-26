@@ -45,4 +45,6 @@ public class MyPageCommand implements Command{
 		request.setAttribute("pagination", pagination);
 		request.setAttribute("member", member);
 	}
+	
+	
 }

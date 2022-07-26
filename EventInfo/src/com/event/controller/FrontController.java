@@ -26,7 +26,7 @@ public class FrontController extends HttpServlet {
 	}
 	
 	protected void actionDo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("====FrontController====");
+		System.out.println("====FrontController===="); //actionDo호출하면 콘솔창에 출력
 		System.out.println("actionDo() 호출");
 		
 		request.setCharacterEncoding("UTF-8");
@@ -38,12 +38,13 @@ public class FrontController extends HttpServlet {
 		String viewPage = null;  // 어떠한 페이지에 보여줄지 (View)
 		Command command = null;   // 어떠한 로직을 수행할지
 		
-		// 테스트 출력
+		
 		System.out.println("uri: " + uri);
 		System.out.println("conPath: " + conPath);
 		System.out.println("com: " + com);
 		System.out.println("=======================");
 		
+		//case "/x"; 실행하면 viewPage ="x"; 페이지 출력
 		switch(com) {
 		case "/main.do":
 			viewPage = "main.jsp";

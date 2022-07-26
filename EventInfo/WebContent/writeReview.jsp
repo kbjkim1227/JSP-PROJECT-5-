@@ -3,10 +3,10 @@
 <!DOCTYPE html>
 <html>
   <meta charset="utf-8">
-  <title>눈담화</title>
+  <title>유기동물 신고</title>
   <link rel="stylesheet" href="front/css/writeReview.css"><!-- css파일 -->
   <jsp:include page="fragment/header.jsp" flush="false"/>
-  <hr><!-- 이 및으론 리뷰 쪽 -->
+  <hr>
   <div class="container">
     <div class="row">
       <form method="post" action="writeReviewOk.do" enctype="multipart/form-data" name="form" onsubmit="return check_All()">

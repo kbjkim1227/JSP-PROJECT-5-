@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <!--리뷰 등록 성공여부 페이지-->
 <!DOCTYPE html>
 <html>
 <head>

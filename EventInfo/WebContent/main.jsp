@@ -11,11 +11,11 @@
       <pre>애완동물 분양
  하시기전에
 <span style ="font-size:0.8em">신중히 한번더 생각해주세요</span>
-<div><a href="#detail" class ="main_button2" style="background-color:#470C08">자세히보기</a></div>
+<div><a href="#detail" class ="main_button2" style="background-color:#875E00">자세히보기</a></div>
 <!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 
 </pre>
-  <video style="width:2300px"src="front/video/dogcat2.mp4" autoplay loop muted >video</video>
+  <video style="width:2500px"src="front/video/dogcat2.mp4" autoplay loop muted >video</video>
   </article>
   </div>
   <br><br><br>
