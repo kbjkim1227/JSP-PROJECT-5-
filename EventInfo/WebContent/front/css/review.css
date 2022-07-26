@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
     font-family: 'ImcreSoojin';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
@@ -29,8 +30,7 @@ body,html{
 
 }
 body{
-   font-family: 'NIXGONM-Vb';
-  /* font-family: 'Nanum Brush Script'; */
+   font-family: 'Nanum Brush Script';
 }
 
 a{
@@ -52,10 +52,14 @@ nav{
 }
 
 
-footer{
-  width: 100%;
-  height: 10%;
-}
+footer{	
+  height:60px; 
+  width: 70%;
+  position:absolute; 
+  left: 0;
+  bottom: 0; 
+  margin-bottom: 182px;
+ }
 .title{
   top:0;
   position:sticky;
@@ -162,42 +166,49 @@ footer{
    width:100%;
    height:50px;
    font-family: 'NIXGONM-Vb';
-   border-top:3px solid #eeeeee;
+   font-size: 1.8em;
+   text-align: center;
+/*    border-top:3px solid #eeeeee;
    border-left:3px solid #eeeeee;
    border-right:3px solid #eeeeee;
-   border-bottom:3px solid #ff7276;
-   padding-top:15px;
-   background-color:white;
+   border-bottom:3px solid #ff7276; */
+   padding-top:15px; 
+   background-color: #FFE8F2;
    margin-top:20px;
    margin-bottom:20px;
 }
-.main_title{
+
+/* .main_title{
    font-family: 'NIXGONM-Vb';
    text-align:center;
-}
+} */
 .button1{
    font-family: 'GmarketSansMedium';
    width:100%;
    height:30px;
+   margin-top: 15px;
    margin-left:10px;
    margin-right:10px;
-   font-size:1em;
-   border-top:0;
-   border-left:0;
-   border-right:2px solid #eeeeee;
-   border-bottom:2px solid #ff7276;
+   margin-bottom: 15px;
+   font-size:1.1em;
+   border-top:2px solid #eeeeee;
+   border-left:1px solid #eeeeee;
+   border-right:1px solid #eeeeee;
+   border-bottom:2px solid #eeeeee;
    float:left;
-   background-color:white;
-   
+   color: grey;
+   background-color: white;
 }
-
-
+.button1:hover {
+	color: red;	
+}
 td{
-   padding-up:3px;
+   padding-top:3px;
    padding-bottom:3px;
 }
 .table_color{
-   border-bottom:1px solid #eeeeee;
+   border-bottom:2px solid #eeeeee;
+   letter-spacing: 2px;
 }
 .review_ul{
   padding:0;
@@ -242,20 +253,57 @@ footer>pre{
    float:left;
    background-color:white;   
 }
-.button1{
+.button2{ 
 	font-family: 'GmarketSansMedium';
-	width:80px;
+	width:100px;
 	height:30px;
-	font-size:0.8em;
+	font-size:1.1em;
+	text-align: center;
+	margin-top: 10px;
 	margin-right:10px;
-	border-top:0;
-	border-left:0;
+	border-top:2px solid #ff7276;
+	border-left:2px solid #ff7276;
 	border-right:2px solid #ff7276;
 	border-bottom:2px solid #ff7276;
-	float:left;
+	float:none;
+	background-color:white;
+}
+.button3{
+	font-family: 'GmarketSansMedium';
+	width:100px;
+	height:30px;
+	font-size:1.1em;
+	text-align: center;
+	margin-top: 10px;
+	border-top:2px solid #ff7276;
+	border-left:2px solid #ff7276;
+	border-right:2px solid #ff7276;
+	border-bottom:2px solid #ff7276;
+	float:right;
 	background-color:white;
 }
 .sign_box{
 	background-color:white;
-	border:0.5px solid #dcdcdc;
+	border:2.5px solid #dcdcdc;
+	float: left;
+	width: 10%;
+	height: 23px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.title_cont{
+	text-align: left;
+	margin-left: 20px;
+}
+.button2:hover {
+	background-color: #eeeeee;	
+}
+.button3:hover {
+	background-color: #eeeeee;	
+}
+.pg_no{
+	font-size: 1.1em;
+}
+.pg_no:hover{
+	color: red;
 }
