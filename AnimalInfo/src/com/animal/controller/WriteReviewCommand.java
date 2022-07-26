@@ -26,7 +26,7 @@ public class WriteReviewCommand implements Command{
 		Long review_uid = null;
 		Long member_uid = Long.parseLong(String.valueOf(session.getAttribute("session")));
 		
-		String regdate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		String regdate = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")); //작성날짜 시간 표기
 		
 		Review review = null;
 		//멤버 찾기(이름)

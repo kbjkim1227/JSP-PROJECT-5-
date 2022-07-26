@@ -2,15 +2,15 @@ package com.animal.domain;
 
 
 public class Review {
-	 private Long review_uid;
-	 private Long member_uid;
-	 private String writer;
-	 private String category;
-	 private String title;
-	 private String content;
-	 private String img;
-	 private int view_count;
-	 private String regdate;
+	 private Long review_uid; //리뷰 uid
+	 private Long member_uid; //회원 uid
+	 private String writer;   //글쓴이
+	 private String category; //카테고리
+	 private String title;    //제목
+	 private String content;  //내용
+	 private String img;      //이미지
+	 private int view_count;  //글 순서
+	 private String regdate;  //작성날짜
 	 
 	 protected Review() {} //그냥 생성불가
 	 

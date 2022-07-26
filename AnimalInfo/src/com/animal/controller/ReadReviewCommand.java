@@ -21,11 +21,11 @@ public class ReadReviewCommand implements Command{
 		Long review_uid = Long.parseLong(String.valueOf(request.getParameter("uid")));
 		//조회수 증가
 		reviewService.updateViewCount(review_uid);
-		Review review = reviewService.findByUid(review_uid);
+		Review review = reviewService.findByUid(review_uid);//uid review 불러옴(찾기)
 		
 		List<Reply> replys = replyService.findAll(review_uid);
 		
-		request.setAttribute("review", review);
-		request.setAttribute("replys", replys);
+		request.setAttribute("review", review);  // review 형태로 값 저장.
+		request.setAttribute("replys", replys);  // replys 형태로 값 저장.
 	}
 }
