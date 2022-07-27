@@ -17,23 +17,24 @@ public class FrontController extends HttpServlet {
     	super();
     }
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { // Get 방식
 		actionDo(request, response);
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { // Post 방식
 		actionDo(request, response);
 	}
 	
-	protected void actionDo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void actionDo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
+		// Get , Post 방식 둘다 유연하게 쓰기위한 actionDo 메소드
 		System.out.println("====FrontController===="); //actionDo호출하면 콘솔창에 출력
 		System.out.println("actionDo() 호출");
 		
-		request.setCharacterEncoding("UTF-8");
+		request.setCharacterEncoding("UTF-8"); 
 			
-		String uri = request.getRequestURI();
-		String conPath = request.getContextPath();
-		String com = uri.substring(conPath.length());
+		String uri = request.getRequestURI(); // URI(프로젝트명 + 파일경로) 정보를 가져와 uri에 대입
+		String conPath = request.getContextPath(); // Project Path만 가져와 conPath에 대입
+		String com = uri.substring(conPath.length()); // URI에서 conPath에 저장되어있는 Project Path 길이만큼 짤라 com에 저장
 		
 		String viewPage = null;  // 어떠한 페이지에 보여줄지 (View)
 		Command command = null;   // 어떠한 로직을 수행할지

@@ -12,8 +12,8 @@ import com.animal.service.ReviewService;
 
 public class ReadReviewCommand implements Command{
 	//리뷰 서비스와 리블라이서비스 받기
-	ReviewService reviewService = ReviewService.getInstance(); 
-	ReplyService replyService = ReplyService.getInstance(); 
+	ReviewService reviewService = ReviewService.getInstance(); // 싱글톤 형태로 되어있는 ReviewService 정보를 가져옴
+	ReplyService replyService = ReplyService.getInstance(); // 싱글톤 형태로 되어있는 ReplyService 정보를 가져옴
 	//오버라이드 객체 생성
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
@@ -23,7 +23,7 @@ public class ReadReviewCommand implements Command{
 		reviewService.updateViewCount(review_uid);
 		Review review = reviewService.findByUid(review_uid);//uid review 불러옴(찾기)
 		
-		List<Reply> replys = replyService.findAll(review_uid);
+		List<Reply> replys = replyService.findAll(review_uid); 
 		
 		request.setAttribute("review", review);  // review 형태로 값 저장.
 		request.setAttribute("replys", replys);  // replys 형태로 값 저장.
