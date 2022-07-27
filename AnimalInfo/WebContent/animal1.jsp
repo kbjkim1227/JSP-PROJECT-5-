@@ -5,11 +5,11 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="front/css/animal.css">
-<jsp:include page="fragment/header.jsp" flush="false"/>    
+<link rel="stylesheet" href="front/css/animal.css"><!--animal.css 적용-->
+<jsp:include page="fragment/header.jsp" flush="false"/>  <!--헤더페이지 가져오기-->  
 	<div style="width:100%;height:100px;">
       <section class ="content">
-        <ul class="first_icon">
+        <ul class="first_icon"><!--조건에 맞는 선택시 선택페이지로 이동하는 버튼-->
           <li>&nbsp;<input class="button" id="animal1" type="button" value="아루" onclick="
               if(document.querySelector('#animal1').value === '아루'){
                   document.querySelector('#animal_1').style.display='block';

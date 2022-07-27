@@ -7,14 +7,16 @@
 <title>유기견 보호소</title>
 <jsp:include page="fragment/header.jsp" flush="false"/>
   <div style="width:100%">
-  <article>
+  <article> <!-- article 태그로 자동 줄맞춤 및 독립적인 구성-->
       <pre>애완동물 분양
  하시기전에
 <span style ="font-size:0.8em">신중히 한번더 생각해주세요</span>
 <div><a href="#detail" class ="main_button2" style="background-color:#875E00">자세히보기</a></div>
+<!--style태그로 개별 css적용-->
 <!-- <input class ="main_button" type = button value="자세히보기"onclick=""/> -->
 
 </pre>
+<!--넓이 고정을 위해 width값 작성-->
   <video style="width:2500px"src="front/video/dogcat2.mp4" autoplay loop muted >video</video>
   </article>
   </div>
@@ -37,7 +39,7 @@
   <br><br><br><br>
   
  
-    <div class="jb-wrap" style="text-align:center;">
+    <div class="jb-wrap" style="text-align:center;"><!-- div 태그로 감싸서 이미지 안에 링크가 걸려있는 이미지 쌓기-->
 
  	 <img class="jb-image" id="detail" src="front/img/main/dog.png">
  	 <a href="animal1.do" class ="main_button1">

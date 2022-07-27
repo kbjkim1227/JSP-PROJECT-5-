@@ -14,9 +14,9 @@ public class UpdateMyPageOkCommand implements Command{
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
 		int result = 0;
-		HttpSession session = request.getSession();
-		Long member_uid = Long.parseLong(String.valueOf(session.getAttribute("session")));
-		String name = request.getParameter("name");
+		HttpSession session = request.getSession();//세션값 불러오기
+		Long member_uid = Long.parseLong(String.valueOf(session.getAttribute("session")));//세션에서 member_uid 불러오기
+		String name = request.getParameter("name");//세션에서 ( ) 값 불러오기
 		String email = request.getParameter("email");
 		String phoneNum = request.getParameter("phoneNum");
 		String address = request.getParameter("address");
@@ -24,8 +24,8 @@ public class UpdateMyPageOkCommand implements Command{
 		
 		Member member = new Member(member_uid, name, email, phoneNum, address, age);
 		System.out.println(member.toString());
-		result = memberService.updateMember(member);
+		result = memberService.updateMember(member);//결과에 최종 맴버값 입력
 		
-		request.setAttribute("result", result);
+		request.setAttribute("result", result);//결과 저장
 	}
 }

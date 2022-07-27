@@ -19,7 +19,7 @@ public class ReviewKeywordCommand implements Command{
 		keyword = "%"+keyword+"%";
 		
 		int page = 0;
-		if(request.getParameter("page") == null) page = 1;
+		if(request.getParameter("page") == null) page = 1; //페이지가 널값이면 페이지 1로 취급
 		else page = Integer.parseInt(String.valueOf(request.getParameter("page")));
 		
 		int totalListCnt = reviewService.totalListCountByKeyword(keyword);
@@ -33,7 +33,7 @@ public class ReviewKeywordCommand implements Command{
                 pagination.getStartPage() + " | 끝페이지:" + pagination.getEndPage() + "|startIndex:" + startIndex + "|endIndex:" + endIndex
                 + "|preBlock:" + pagination.getPreBlock() + "|nextBlock:" + pagination.getNextBlock()+"|block:"+pagination.getBlock());//확인용
 		
-		request.setAttribute("reviews", reviews);
-		request.setAttribute("pagination", pagination);
+		request.setAttribute("reviews", reviews); //리뷰값 저장
+		request.setAttribute("pagination", pagination); //pagination 저장
 	}
 }

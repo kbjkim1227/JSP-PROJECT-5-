@@ -11,10 +11,10 @@ import com.animal.service.ReplyService;
 import com.animal.service.ReviewService;
 
 public class ReadReviewCommand implements Command{
-
+	//리뷰 서비스와 리블라이서비스 받기
 	ReviewService reviewService = ReviewService.getInstance(); 
 	ReplyService replyService = ReplyService.getInstance(); 
-	
+	//오버라이드 객체 생성
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
 		//리뷰 uid 받기

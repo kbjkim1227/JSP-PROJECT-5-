@@ -18,10 +18,11 @@ public class UpdateReviewOkCommand implements Command{
 	
 	ReviewService reviewService = ReviewService.getInstance();
 	
+	//오버라이드 객체 생성
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
 		int result = 0;
-		HttpSession session = request.getSession();
+		HttpSession session = request.getSession(); //세션값 불러오기
 		Long member_uid = Long.parseLong(String.valueOf(session.getAttribute("session")));
 		Review review = null;
 		
@@ -49,6 +50,6 @@ public class UpdateReviewOkCommand implements Command{
 		    }
 		
 		result = reviewService.updateReview(review);
-		request.setAttribute("result", result);
+		request.setAttribute("result", result); //결과 값 저장
 	}
 }

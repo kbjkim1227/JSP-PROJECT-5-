@@ -16,13 +16,13 @@ public class ReviewAnimalCommand implements Command {
 	@Override
 	public void excute(HttpServletRequest request, HttpServletResponse response) {
 		int page = 0;
-		if(request.getParameter("page") == null) page = 1;
-		else page = Integer.parseInt(String.valueOf(request.getParameter("page")));
+		if(request.getParameter("page") == null) page = 1; //만약 페이지 값이 널값이면 페이지는 1로처리
+		else page = Integer.parseInt(String.valueOf(request.getParameter("page"))); //아니면 페이지 값 불러오기
 		
 		//카테고리 이름
-	    String category = "animal";
+	    String category = "animal"; //animal 이라는 카테고리
 		
-		int totalListCnt = reviewService.totalListCountByCategory(category);
+		int totalListCnt = reviewService.totalListCountByCategory(category); 
 		Pagination pagination = new Pagination(totalListCnt, page, 7);
 		int startIndex = pagination.getStartIndex();
 		int endIndex = pagination.getEndIndex();
@@ -33,8 +33,8 @@ public class ReviewAnimalCommand implements Command {
                 pagination.getStartPage() + " | 끝페이지:" + pagination.getEndPage() + "|startIndex:" + startIndex + "|endIndex:" + endIndex
                 + "|preBlock:" + pagination.getPreBlock() + "|nextBlock:" + pagination.getNextBlock()+"|block:"+pagination.getBlock());//확인용
 		
-		request.setAttribute("reviews", reviews);
-		request.setAttribute("pagination", pagination);
+		request.setAttribute("reviews", reviews); //리뷰 저장
+		request.setAttribute("pagination", pagination); //pagination 저장
 	}
 
 }
