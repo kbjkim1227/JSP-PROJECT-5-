@@ -27,7 +27,7 @@ public class MemberRepository {
 	private MemberRepository() {
 		System.out.println("MemberRepository 생성자 생성");
 		try {
-			Class.forName(DB.DRIVER);
+			Class.forName(DB.DRIVER); // Class 객체 리턴
 			System.out.println("MemberRepository생성, DB연결");
 			System.out.println("========================");
 		}catch(Exception e) {
@@ -37,14 +37,14 @@ public class MemberRepository {
 		}
 	}
 	
-	public void close() throws SQLException{
-		if(rs != null) rs.close();
+	public void close() throws SQLException{ // 정상 수행 시 rs.pstmt.stmt.conn close 해주는 메소드 
+		if(rs != null) rs.close(); 
 		if(pstmt != null) pstmt.close();
 		if(stmt != null) stmt.close();
 		if(conn != null) conn.close();
 	}
 	
-	public Member createMember(ResultSet rs) throws SQLException{
+	public Member createMember(ResultSet rs) throws SQLException{  // 회원가입 시 입력하 회원정보 저장
 		Member member = new Member(
 				rs.getLong("member_uid"),
 				rs.getString("id"),
@@ -61,7 +61,7 @@ public class MemberRepository {
 	
 	
 	//insert
-	public int save(Member member) throws SQLException{
+	public int save(Member member) throws SQLException{ // 회원 가입후 회원정보 DB에 Insert 하는 메소드
 		int result = 0;
 		try {
 			conn = DriverManager.getConnection(DB.URL, DB.USERID, DB.USERPW);
@@ -118,7 +118,7 @@ public class MemberRepository {
 	}
 	
 	//update pw
-	public int updatePw(String pw, String id) throws SQLException{
+	public int updatePw(String pw, String id) throws SQLException{ // 비밀번호 찾기 후 새로 지정한 패스워드 DB에 Update 하는 메소드 
 		int result = 0;
 		try {
 			conn = DriverManager.getConnection(DB.URL, DB.USERID, DB.USERPW);
@@ -133,7 +133,7 @@ public class MemberRepository {
 	}
 	
 	//update 회원
-	public int update(Member member) throws SQLException{
+	public int update(Member member) throws SQLException{ // 마이페이지 에서 회원정보 변경 시 변경사항 DB에 Update 하는 메소드
 		int result = 0;
 		try {
 			conn = DriverManager.getConnection(DB.URL, DB.USERID, DB.USERPW);
